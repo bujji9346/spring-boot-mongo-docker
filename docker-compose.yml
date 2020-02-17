@@ -1,8 +1,8 @@
-version: '3.1'
+version: '1.1'
 
 services:
   springboot:
-    image: devopsdockermithuntech/spring-boot-mongo:latest
+    image:  devopsdockermithuntech/spring-boot-mongo:latest
     restart: always
     container_name: springboot
     ports:
